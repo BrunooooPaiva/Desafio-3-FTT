@@ -2,7 +2,6 @@
 
 
    `pip install flask`
-
 2. Instalar algum aplicativo na qual tenha suporte para requisições de API (Postman API foi utilizado aplicação):
 
 
