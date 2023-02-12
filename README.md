@@ -1,7 +1,7 @@
 # Desafio-3-FTT
 
 # 1) Instalar a biblioteca Flask:
-#   pip install flask
+   pip install flask
 
 # 2) Instalar algum aplicativo na qual tenha suporte para requisições de API (Postman API foi utilizado aplicação)
 #   Link do Postman: https://www.postman.com/downloads/
