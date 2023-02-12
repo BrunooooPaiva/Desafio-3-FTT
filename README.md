@@ -19,6 +19,8 @@
 
 
      Padrão a se seguir:
+     
+     
      ```
         'id' : 1,
         'nome' : 'Exemplo',
@@ -28,17 +30,17 @@
         'animador' : 'Exemplo'
        ```
        
-    
+   
   -Consultar todos personagens [GET]: http://localhost:5000/personagens
 
 
-  -Consultar personagem em específico [GET]: http://localhost:5000/personagens/[Número do ID]
+  -Consultar personagem em específico [GET]: http://localhost:5000/personagens/ [Número do ID]
 
 
   -Editar personagem [PUT]: http://localhost:5000/personagens
 
-     -> Entretando, na hora de alterar, colocar o número do ID do dicionário na qual você quer alterar, no final da URL
-        (http://localhost:5000/personagens/[Número do ID]), e, então, ENVIAR
+        Entretando, na hora de alterar, colocar o número do ID do dicionário na qual você quer alterar, no final da URL
+        (http://localhost:5000/personagens/ [Número do ID]), e, então, ENVIAR
         
         
-  -Excluir personagem [DELETE]: http://localhost:5000/personagens/[Número do ID]
+  -Excluir personagem [DELETE]: http://localhost:5000/personagens/ [Número do ID]
