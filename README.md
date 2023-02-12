@@ -15,7 +15,7 @@
 4. Formas de requisição:
 
 
-   -Para adicionar [POST]: http://localhost:5000/personagens
+     -Para adicionar [POST]: http://localhost:5000/personagens
 
 
      Padrão a se seguir:
@@ -28,19 +28,19 @@
         'link' : 'Exemplo',
         'programa' : 'Exemplo',
         'animador' : 'Exemplo'
-       ```
+      ```
        
    
-  -Consultar todos personagens [GET]: http://localhost:5000/personagens
+     -Consultar todos personagens [GET]: http://localhost:5000/personagens
 
 
-  -Consultar personagem em específico [GET]: http://localhost:5000/personagens/ [Número do ID]
+     -Consultar personagem em específico [GET]: http://localhost:5000/personagens/ [Número do ID]
 
 
-  -Editar personagem [PUT]: http://localhost:5000/personagens
+     -Editar personagem [PUT]: http://localhost:5000/personagens
 
         Entretando, na hora de alterar, colocar o número do ID do dicionário na qual você quer alterar, no final da URL
         (http://localhost:5000/personagens/ [Número do ID]), e, então, ENVIAR
         
         
-  -Excluir personagem [DELETE]: http://localhost:5000/personagens/ [Número do ID]
+     -Excluir personagem [DELETE]: http://localhost:5000/personagens/ [Número do ID]
